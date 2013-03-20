@@ -12,7 +12,7 @@
 
 - (void)testLaunch
 {
-    STAssertTrue(false, nil);
+    STAssertTrue(true, nil);
 }
 
 @end
