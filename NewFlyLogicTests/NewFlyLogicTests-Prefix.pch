@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'NewFlyLogicTests' target in the 'NewFlyLogicTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

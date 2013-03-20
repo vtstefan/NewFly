@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6450399616F9FC74007B4ED0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E5516F9B8B200C73644 /* SenTestingKit.framework */; };
+		6450399716F9FC74007B4ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3216F9B8B200C73644 /* UIKit.framework */; };
+		6450399816F9FC74007B4ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
+		6450399E16F9FC74007B4ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6450399C16F9FC74007B4ED0 /* InfoPlist.strings */; };
+		645039A816F9FE4E007B4ED0 /* AppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 645039A716F9FE4E007B4ED0 /* AppDelegateTest.m */; };
 		64D19E3316F9B8B200C73644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3216F9B8B200C73644 /* UIKit.framework */; };
 		64D19E3516F9B8B200C73644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
 		64D19E3716F9B8B200C73644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3616F9B8B200C73644 /* CoreGraphics.framework */; };
@@ -37,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6450399516F9FC74007B4ED0 /* NewFlyLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFlyLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6450399B16F9FC74007B4ED0 /* NewFlyLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewFlyLogicTests-Info.plist"; sourceTree = "<group>"; };
+		6450399D16F9FC74007B4ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		645039A216F9FC74007B4ED0 /* NewFlyLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewFlyLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		645039A616F9FE4E007B4ED0 /* AppDelegateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateTest.h; sourceTree = "<group>"; };
+		645039A716F9FE4E007B4ED0 /* AppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTest.m; sourceTree = "<group>"; };
 		64D19E2F16F9B8B200C73644 /* NewFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D19E3216F9B8B200C73644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64D19E3416F9B8B200C73644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +72,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6450399116F9FC74007B4ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6450399616F9FC74007B4ED0 /* SenTestingKit.framework in Frameworks */,
+				6450399716F9FC74007B4ED0 /* UIKit.framework in Frameworks */,
+				6450399816F9FC74007B4ED0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64D19E2C16F9B8B200C73644 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,11 +107,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6450399916F9FC74007B4ED0 /* NewFlyLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				645039A616F9FE4E007B4ED0 /* AppDelegateTest.h */,
+				645039A716F9FE4E007B4ED0 /* AppDelegateTest.m */,
+				6450399A16F9FC74007B4ED0 /* Supporting Files */,
+			);
+			path = NewFlyLogicTests;
+			sourceTree = "<group>";
+		};
+		6450399A16F9FC74007B4ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6450399B16F9FC74007B4ED0 /* NewFlyLogicTests-Info.plist */,
+				6450399C16F9FC74007B4ED0 /* InfoPlist.strings */,
+				645039A216F9FC74007B4ED0 /* NewFlyLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		64D19E2616F9B8B200C73644 = {
 			isa = PBXGroup;
 			children = (
 				64D19E3A16F9B8B200C73644 /* NewFly */,
 				64D19E5C16F9B8B200C73644 /* NewFlyTests */,
+				6450399916F9FC74007B4ED0 /* NewFlyLogicTests */,
 				64D19E3116F9B8B200C73644 /* Frameworks */,
 				64D19E3016F9B8B200C73644 /* Products */,
 			);
@@ -101,6 +143,7 @@
 			children = (
 				64D19E2F16F9B8B200C73644 /* NewFly.app */,
 				64D19E5416F9B8B200C73644 /* NewFlyTests.octest */,
+				6450399516F9FC74007B4ED0 /* NewFlyLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +207,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6450399416F9FC74007B4ED0 /* NewFlyLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645039A516F9FC74007B4ED0 /* Build configuration list for PBXNativeTarget "NewFlyLogicTests" */;
+			buildPhases = (
+				6450399016F9FC74007B4ED0 /* Sources */,
+				6450399116F9FC74007B4ED0 /* Frameworks */,
+				6450399216F9FC74007B4ED0 /* Resources */,
+				6450399316F9FC74007B4ED0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewFlyLogicTests;
+			productName = NewFlyLogicTests;
+			productReference = 6450399516F9FC74007B4ED0 /* NewFlyLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		64D19E2E16F9B8B200C73644 /* NewFly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64D19E6716F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFly" */;
@@ -223,11 +284,20 @@
 			targets = (
 				64D19E2E16F9B8B200C73644 /* NewFly */,
 				64D19E5316F9B8B200C73644 /* NewFlyTests */,
+				6450399416F9FC74007B4ED0 /* NewFlyLogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6450399216F9FC74007B4ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6450399E16F9FC74007B4ED0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64D19E2D16F9B8B200C73644 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +320,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6450399316F9FC74007B4ED0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		64D19E5216F9B8B200C73644 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +349,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6450399016F9FC74007B4ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645039A816F9FE4E007B4ED0 /* AppDelegateTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64D19E2B16F9B8B200C73644 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +386,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6450399C16F9FC74007B4ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6450399D16F9FC74007B4ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		64D19E3D16F9B8B200C73644 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -314,6 +413,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		645039A316F9FC74007B4ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFlyLogicTests/NewFlyLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "NewFlyLogicTests/NewFlyLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		645039A416F9FC74007B4ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFlyLogicTests/NewFlyLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "NewFlyLogicTests/NewFlyLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		64D19E6516F9B8B200C73644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +558,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		645039A516F9FC74007B4ED0 /* Build configuration list for PBXNativeTarget "NewFlyLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645039A316F9FC74007B4ED0 /* Debug */,
+				645039A416F9FC74007B4ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		64D19E2A16F9B8B200C73644 /* Build configuration list for PBXProject "NewFly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -445,6 +582,7 @@
 				64D19E6916F9B8B200C73644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64D19E6A16F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFlyTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +591,7 @@
 				64D19E6C16F9B8B200C73644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
