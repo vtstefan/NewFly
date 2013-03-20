@@ -7,15 +7,16 @@
 //
 
 #import "AppDelegateTest.h"
-#import "AppDelegate.h"
+#import "StartViewController.h"
 
 @implementation AppDelegateTest
 
 - (void)testMultiplyNumber
 {
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    int product = [appDelegate multiplyNumber:2 withNumber:5];
-    
+    StartViewController *startViewController = [[StartViewController alloc] init];
+    int product = 5;
+    product = [startViewController multiplyNumber:2 withNumber:5];
+    NSLog(@"%i", product);
     STAssertEquals(product, 10, nil);
 }
 

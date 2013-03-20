@@ -20,12 +20,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
-}
-
-- (int)multiplyNumber:(int)number1 withNumber:(int)number2
-{
-    return number1 * number2;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

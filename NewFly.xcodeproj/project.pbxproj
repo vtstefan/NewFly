@@ -12,6 +12,8 @@
 		6450399816F9FC74007B4ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
 		6450399E16F9FC74007B4ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6450399C16F9FC74007B4ED0 /* InfoPlist.strings */; };
 		645039A816F9FE4E007B4ED0 /* AppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 645039A716F9FE4E007B4ED0 /* AppDelegateTest.m */; };
+		645039AE16FA123D007B4ED0 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645039AD16FA123D007B4ED0 /* StartViewController.m */; };
+		645039AF16FA123D007B4ED0 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645039AD16FA123D007B4ED0 /* StartViewController.m */; };
 		64D19E3316F9B8B200C73644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3216F9B8B200C73644 /* UIKit.framework */; };
 		64D19E3516F9B8B200C73644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
 		64D19E3716F9B8B200C73644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3616F9B8B200C73644 /* CoreGraphics.framework */; };
@@ -32,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		645039B016FA1296007B4ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D19E2716F9B8B200C73644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D19E2E16F9B8B200C73644;
+			remoteInfo = NewFly;
+		};
 		64D19E5A16F9B8B200C73644 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 64D19E2716F9B8B200C73644 /* Project object */;
@@ -48,6 +57,8 @@
 		645039A216F9FC74007B4ED0 /* NewFlyLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewFlyLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		645039A616F9FE4E007B4ED0 /* AppDelegateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateTest.h; sourceTree = "<group>"; };
 		645039A716F9FE4E007B4ED0 /* AppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTest.m; sourceTree = "<group>"; };
+		645039AC16FA123D007B4ED0 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		645039AD16FA123D007B4ED0 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		64D19E2F16F9B8B200C73644 /* NewFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D19E3216F9B8B200C73644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64D19E3416F9B8B200C73644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -163,6 +174,8 @@
 		64D19E3A16F9B8B200C73644 /* NewFly */ = {
 			isa = PBXGroup;
 			children = (
+				645039AC16FA123D007B4ED0 /* StartViewController.h */,
+				645039AD16FA123D007B4ED0 /* StartViewController.m */,
 				64D19E4316F9B8B200C73644 /* AppDelegate.h */,
 				64D19E4416F9B8B200C73644 /* AppDelegate.m */,
 				64D19E4C16F9B8B200C73644 /* NewFly.xcdatamodeld */,
@@ -219,6 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				645039B116FA1296007B4ED0 /* PBXTargetDependency */,
 			);
 			name = NewFlyLogicTests;
 			productName = NewFlyLogicTests;
@@ -354,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				645039A816F9FE4E007B4ED0 /* AppDelegateTest.m in Sources */,
+				645039AF16FA123D007B4ED0 /* StartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +379,7 @@
 				64D19E4116F9B8B200C73644 /* main.m in Sources */,
 				64D19E4516F9B8B200C73644 /* AppDelegate.m in Sources */,
 				64D19E4E16F9B8B200C73644 /* NewFly.xcdatamodeld in Sources */,
+				645039AE16FA123D007B4ED0 /* StartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +394,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		645039B116FA1296007B4ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D19E2E16F9B8B200C73644 /* NewFly */;
+			targetProxy = 645039B016FA1296007B4ED0 /* PBXContainerItemProxy */;
+		};
 		64D19E5B16F9B8B200C73644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 64D19E2E16F9B8B200C73644 /* NewFly */;
