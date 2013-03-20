@@ -25,7 +25,7 @@
 
 - (int)multiplyNumber:(int)number1 withNumber:(int)number2
 {
-    return number1 * number2;
+    return number1 + number2;
 }
 
 - (void)viewDidLoad
