@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D19E3316F9B8B200C73644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3216F9B8B200C73644 /* UIKit.framework */; };
+		64D19E3516F9B8B200C73644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
+		64D19E3716F9B8B200C73644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3616F9B8B200C73644 /* CoreGraphics.framework */; };
+		64D19E3916F9B8B200C73644 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3816F9B8B200C73644 /* CoreData.framework */; };
+		64D19E3F16F9B8B200C73644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64D19E3D16F9B8B200C73644 /* InfoPlist.strings */; };
+		64D19E4116F9B8B200C73644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D19E4016F9B8B200C73644 /* main.m */; };
+		64D19E4516F9B8B200C73644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D19E4416F9B8B200C73644 /* AppDelegate.m */; };
+		64D19E4716F9B8B200C73644 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D19E4616F9B8B200C73644 /* Default.png */; };
+		64D19E4916F9B8B200C73644 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D19E4816F9B8B200C73644 /* Default@2x.png */; };
+		64D19E4B16F9B8B200C73644 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D19E4A16F9B8B200C73644 /* Default-568h@2x.png */; };
+		64D19E4E16F9B8B200C73644 /* NewFly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D19E4C16F9B8B200C73644 /* NewFly.xcdatamodeld */; };
+		64D19E5616F9B8B200C73644 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E5516F9B8B200C73644 /* SenTestingKit.framework */; };
+		64D19E5716F9B8B200C73644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3216F9B8B200C73644 /* UIKit.framework */; };
+		64D19E5816F9B8B200C73644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3416F9B8B200C73644 /* Foundation.framework */; };
+		64D19E5916F9B8B200C73644 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D19E3816F9B8B200C73644 /* CoreData.framework */; };
+		64D19E6116F9B8B200C73644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64D19E5F16F9B8B200C73644 /* InfoPlist.strings */; };
+		64D19E6416F9B8B200C73644 /* NewFlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D19E6316F9B8B200C73644 /* NewFlyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D19E5A16F9B8B200C73644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D19E2716F9B8B200C73644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D19E2E16F9B8B200C73644;
+			remoteInfo = NewFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64D19E2F16F9B8B200C73644 /* NewFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D19E3216F9B8B200C73644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64D19E3416F9B8B200C73644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64D19E3616F9B8B200C73644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64D19E3816F9B8B200C73644 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64D19E3C16F9B8B200C73644 /* NewFly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewFly-Info.plist"; sourceTree = "<group>"; };
+		64D19E3E16F9B8B200C73644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64D19E4016F9B8B200C73644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64D19E4216F9B8B200C73644 /* NewFly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewFly-Prefix.pch"; sourceTree = "<group>"; };
+		64D19E4316F9B8B200C73644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64D19E4416F9B8B200C73644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64D19E4616F9B8B200C73644 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64D19E4816F9B8B200C73644 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64D19E4A16F9B8B200C73644 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64D19E4D16F9B8B200C73644 /* NewFly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewFly.xcdatamodel; sourceTree = "<group>"; };
+		64D19E5416F9B8B200C73644 /* NewFlyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFlyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D19E5516F9B8B200C73644 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64D19E5E16F9B8B200C73644 /* NewFlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewFlyTests-Info.plist"; sourceTree = "<group>"; };
+		64D19E6016F9B8B200C73644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64D19E6216F9B8B200C73644 /* NewFlyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFlyTests.h; sourceTree = "<group>"; };
+		64D19E6316F9B8B200C73644 /* NewFlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFlyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D19E2C16F9B8B200C73644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E3316F9B8B200C73644 /* UIKit.framework in Frameworks */,
+				64D19E3516F9B8B200C73644 /* Foundation.framework in Frameworks */,
+				64D19E3716F9B8B200C73644 /* CoreGraphics.framework in Frameworks */,
+				64D19E3916F9B8B200C73644 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D19E5016F9B8B200C73644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E5616F9B8B200C73644 /* SenTestingKit.framework in Frameworks */,
+				64D19E5716F9B8B200C73644 /* UIKit.framework in Frameworks */,
+				64D19E5816F9B8B200C73644 /* Foundation.framework in Frameworks */,
+				64D19E5916F9B8B200C73644 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D19E2616F9B8B200C73644 = {
+			isa = PBXGroup;
+			children = (
+				64D19E3A16F9B8B200C73644 /* NewFly */,
+				64D19E5C16F9B8B200C73644 /* NewFlyTests */,
+				64D19E3116F9B8B200C73644 /* Frameworks */,
+				64D19E3016F9B8B200C73644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D19E3016F9B8B200C73644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E2F16F9B8B200C73644 /* NewFly.app */,
+				64D19E5416F9B8B200C73644 /* NewFlyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D19E3116F9B8B200C73644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E3216F9B8B200C73644 /* UIKit.framework */,
+				64D19E3416F9B8B200C73644 /* Foundation.framework */,
+				64D19E3616F9B8B200C73644 /* CoreGraphics.framework */,
+				64D19E3816F9B8B200C73644 /* CoreData.framework */,
+				64D19E5516F9B8B200C73644 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D19E3A16F9B8B200C73644 /* NewFly */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E4316F9B8B200C73644 /* AppDelegate.h */,
+				64D19E4416F9B8B200C73644 /* AppDelegate.m */,
+				64D19E4C16F9B8B200C73644 /* NewFly.xcdatamodeld */,
+				64D19E3B16F9B8B200C73644 /* Supporting Files */,
+			);
+			path = NewFly;
+			sourceTree = "<group>";
+		};
+		64D19E3B16F9B8B200C73644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E3C16F9B8B200C73644 /* NewFly-Info.plist */,
+				64D19E3D16F9B8B200C73644 /* InfoPlist.strings */,
+				64D19E4016F9B8B200C73644 /* main.m */,
+				64D19E4216F9B8B200C73644 /* NewFly-Prefix.pch */,
+				64D19E4616F9B8B200C73644 /* Default.png */,
+				64D19E4816F9B8B200C73644 /* Default@2x.png */,
+				64D19E4A16F9B8B200C73644 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D19E5C16F9B8B200C73644 /* NewFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E6216F9B8B200C73644 /* NewFlyTests.h */,
+				64D19E6316F9B8B200C73644 /* NewFlyTests.m */,
+				64D19E5D16F9B8B200C73644 /* Supporting Files */,
+			);
+			path = NewFlyTests;
+			sourceTree = "<group>";
+		};
+		64D19E5D16F9B8B200C73644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D19E5E16F9B8B200C73644 /* NewFlyTests-Info.plist */,
+				64D19E5F16F9B8B200C73644 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D19E2E16F9B8B200C73644 /* NewFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D19E6716F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFly" */;
+			buildPhases = (
+				64D19E2B16F9B8B200C73644 /* Sources */,
+				64D19E2C16F9B8B200C73644 /* Frameworks */,
+				64D19E2D16F9B8B200C73644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewFly;
+			productName = NewFly;
+			productReference = 64D19E2F16F9B8B200C73644 /* NewFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D19E5316F9B8B200C73644 /* NewFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D19E6A16F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFlyTests" */;
+			buildPhases = (
+				64D19E4F16F9B8B200C73644 /* Sources */,
+				64D19E5016F9B8B200C73644 /* Frameworks */,
+				64D19E5116F9B8B200C73644 /* Resources */,
+				64D19E5216F9B8B200C73644 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D19E5B16F9B8B200C73644 /* PBXTargetDependency */,
+			);
+			name = NewFlyTests;
+			productName = NewFlyTests;
+			productReference = 64D19E5416F9B8B200C73644 /* NewFlyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D19E2716F9B8B200C73644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Versatec GmbH";
+			};
+			buildConfigurationList = 64D19E2A16F9B8B200C73644 /* Build configuration list for PBXProject "NewFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64D19E2616F9B8B200C73644;
+			productRefGroup = 64D19E3016F9B8B200C73644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D19E2E16F9B8B200C73644 /* NewFly */,
+				64D19E5316F9B8B200C73644 /* NewFlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D19E2D16F9B8B200C73644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E3F16F9B8B200C73644 /* InfoPlist.strings in Resources */,
+				64D19E4716F9B8B200C73644 /* Default.png in Resources */,
+				64D19E4916F9B8B200C73644 /* Default@2x.png in Resources */,
+				64D19E4B16F9B8B200C73644 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D19E5116F9B8B200C73644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E6116F9B8B200C73644 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D19E5216F9B8B200C73644 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D19E2B16F9B8B200C73644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E4116F9B8B200C73644 /* main.m in Sources */,
+				64D19E4516F9B8B200C73644 /* AppDelegate.m in Sources */,
+				64D19E4E16F9B8B200C73644 /* NewFly.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D19E4F16F9B8B200C73644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D19E6416F9B8B200C73644 /* NewFlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D19E5B16F9B8B200C73644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D19E2E16F9B8B200C73644 /* NewFly */;
+			targetProxy = 64D19E5A16F9B8B200C73644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D19E3D16F9B8B200C73644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D19E3E16F9B8B200C73644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64D19E5F16F9B8B200C73644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D19E6016F9B8B200C73644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D19E6516F9B8B200C73644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64D19E6616F9B8B200C73644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D19E6816F9B8B200C73644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFly/NewFly-Prefix.pch";
+				INFOPLIST_FILE = "NewFly/NewFly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64D19E6916F9B8B200C73644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFly/NewFly-Prefix.pch";
+				INFOPLIST_FILE = "NewFly/NewFly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64D19E6B16F9B8B200C73644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewFly.app/NewFly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFly/NewFly-Prefix.pch";
+				INFOPLIST_FILE = "NewFlyTests/NewFlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64D19E6C16F9B8B200C73644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewFly.app/NewFly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewFly/NewFly-Prefix.pch";
+				INFOPLIST_FILE = "NewFlyTests/NewFlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D19E2A16F9B8B200C73644 /* Build configuration list for PBXProject "NewFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D19E6516F9B8B200C73644 /* Debug */,
+				64D19E6616F9B8B200C73644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D19E6716F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D19E6816F9B8B200C73644 /* Debug */,
+				64D19E6916F9B8B200C73644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64D19E6A16F9B8B200C73644 /* Build configuration list for PBXNativeTarget "NewFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D19E6B16F9B8B200C73644 /* Debug */,
+				64D19E6C16F9B8B200C73644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64D19E4C16F9B8B200C73644 /* NewFly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64D19E4D16F9B8B200C73644 /* NewFly.xcdatamodel */,
+			);
+			currentVersion = 64D19E4D16F9B8B200C73644 /* NewFly.xcdatamodel */;
+			path = NewFly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64D19E2716F9B8B200C73644 /* Project object */;
+}
