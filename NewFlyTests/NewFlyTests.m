@@ -8,6 +8,7 @@
 
 #import "NewFlyTests.h"
 
+
 @implementation NewFlyTests
 
 - (void)setUp
@@ -24,9 +25,6 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STAssertTrue(true, nil);
-}
+
 
 @end

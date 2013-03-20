@@ -7,12 +7,16 @@
 //
 
 #import "AppDelegateTest.h"
+#import "AppDelegate.h"
 
 @implementation AppDelegateTest
 
-- (void)testLaunch
+- (void)testMultiplyNumber
 {
-    STAssertTrue(true, nil);
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    int product = [appDelegate multiplyNumber:2 withNumber:5];
+    
+    STAssertEquals(product, 10, nil);
 }
 
 @end

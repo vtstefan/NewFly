@@ -18,5 +18,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (int)multiplyNumber:(int)number1 withNumber:(int)number2;
 
 @end
